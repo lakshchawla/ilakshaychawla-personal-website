@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lakshay Chawla | Newsletter</title>
+</head>
+
+<style>
+    #NLETTER {
+        color: #4ecdc4;
+    }
+    
+    footer {
+        position: static;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: black;
+        padding: 20px 0;
+    }
+</style>
+
+<body>
+
+    <%- include('partials/header.ejs') %>
+
+        <div class="HOMENEWSLETTER">
+            <h1>Hey there! Subscribe to my Newsletter</h1>
+            <p>Hope you liked this website, but currently it is under development, so whenever any new feature rolls out, be the first to know about it, also with this website, I'll notify you all about my latest projects, inventions, and my work. </p>
+
+            <form action="https://formspree.io/f/mzbyaeao" method="post">
+                <input type="text" placeholder="Email" required id="EMAILBOX">
+                <input type="submit" value="Submit" id="SBMTBTNNL">
+            </form>
+        </div>
+
+        <br><br><br><br><br><br>
+
+        <%- include('partials/footer.ejs') %>
+
+</body>
+
+</html>
