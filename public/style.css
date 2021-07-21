@@ -416,7 +416,7 @@ textarea {
 
 @media only screen and (max-width: 750px) {
     .LINK {
-        margin: auto 20px;
+        margin: 8px 20px;
         text-align: center;
         font-size: 13px;
     }
@@ -457,6 +457,7 @@ textarea {
         width: 90%;
         max-width: 500px;
         margin: 20px auto;
+        width: 200px;
     }
     .FOOTERWRAPPER {
         text-align: center;
@@ -537,5 +538,9 @@ textarea {
     }
     .HOMENEWSLETTER p {
         margin-top: 40px;
+    }
+    #ProfilePic {
+        width: 180px;
+        height: 180px;
     }
 }
