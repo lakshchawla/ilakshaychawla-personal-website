@@ -12,6 +12,11 @@ html {
     border: 0;
 }
 
+    #ProfilePic {
+        width: 250px;
+        height: 250px;
+    }
+
 .HEADER {
     width: 100%;
 }
